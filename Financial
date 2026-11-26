@@ -1,0 +1,70 @@
+# README.md: Análise de Demonstrações Financeiras e Valoração
+
+Este repositório/notebook reúne materiais de estudo e diretrizes analíticas voltadas às **Finanças Corporativas** e à **Análise de Demonstrações Financeiras**.
+
+---
+
+## 1. Tema e Objetivo
+
+> **"As finanças corporativas e a análise financeira utilizam as demonstrações contábeis como principal fonte de informação para a tomada de decisões econômicas, como investimento em ações, concessão de crédito e valoração de empresas (valuation)."**
+
+* **Tema**: Finanças Corporativas e Análise de Demonstrações Financeiras (*Financial Statement Analysis & Valuation*).
+* **Objetivo**: Fornecer um guia de estudo abrangente e rigoroso para interpretar relatórios contábeis (Balanço Patrimonial, DRE, DFC), calcular índices de liquidez, rentabilidade e alavancagem, realizar ajustes contábeis essenciais (como leasings e P&D para valuation) e avaliar a qualidade das informações divulgadas pelas empresas.
+
+---
+
+## 2. Fontes Selecionadas e Justificativa de Confiabilidade
+
+O notebook é composto por 14 fontes criteriosamente selecionadas entre órgãos reguladores, instituições de ensino e certificação de excelência internacional:
+
+| Fonte / Instituição | Título do Documento | Justificativa de Confiabilidade |
+| :--- | :--- | :--- |
+| **CFA Institute** | *Analyzing Balance Sheets*, *Analyzing Income Statements*, *Evaluating Quality of Financial Reports*, *Integration of Financial Statement Analysis Techniques*, *Introduction to Financial Statement Analysis*, *Introduction to Financial Statement Modeling* | Entidade global de referência no mercado financeiro e criadora do programa de certificação CFA. Suas publicações representam as melhores práticas mundiais em análise financeira. |
+| **SEC.gov (US SEC)** | *SEC.gov \| Beginners' Guide to Financial Statements* | Órgão regulador oficial do mercado de capitais norte-americano. Fonte primária isenta, didática e oficial para fundamentação de demonstrações contábeis. |
+| **IFRS Foundation** | *IFRS - IAS 1 Presentation of Financial Statements* | Organismo responsável pela normatização das regras internacionais de contabilidade (IFRS), adotas no Brasil e em mais de 140 países. |
+| **CVM (Dados Abertos)** | *Cias Abertas: Formulário de DFP - Portal Dados Abertos CVM* | Autarquia federal vinculada ao Ministério da Fazenda que regulamenta e fiscaliza o mercado de valores mobiliários brasileiro. |
+| **Prof. Aswath Damodaran (NYU Stern)** | *A Primer on Financial Statements* & *Corporate Finance Online Class* | Maior autoridade acadêmica e prática global em Valuation e Finanças Corporativas da NYU Stern School of Business. |
+| **WEG S.A. (RI)** | *Home - WEG RI* | Portal de Relações com Investidores de uma das maiores empresas brasileiras de capital aberto, oferecendo dados corporativos e de governança reais. |
+
+---
+
+## 3. Diretriz de Comportamento Dada ao Notebook
+
+As instruções operacionais que orientam o modelo de inteligência artificial dentro deste notebook são:
+
+1. **Ancoragem Estrita nas Fontes (*Source Grounding*)**: Todas as afirmações, fórmulas e conceitos devem ser fundamentados diretamente nas fontes fornecidas, utilizando citações explícitas.
+2. **Sem Fabricação de Informações**: É expressamente proibido complementar lacunas com conhecimentos externos não verificados ou inventar dados numéricos e atribuições.
+3. **Transparência sobre Limitações**: Quando um tema ou dado não estiver presente no conjunto de fontes, o notebook deve declarar a ausência de forma clara e objetiva.
+4. **Perspectiva Financeira (*Forward-Looking*)**: Priorizar a visão de decisão de investimento, valoração e gerenciamento de risco em detrimento da mera escrituração contábil histórica.
+5. **Comunicação Didática e Estruturada**: Apresentar respostas organizadas em seções numéricas, tabelas de índices e marcadores em negrito para facilitando o estudo.
+
+---
+
+## 4. Pergunta Realizada, Respostas e Fontes Utilizadas
+
+### Pergunta do Usuário:
+> *"me forneça um material de estudo sobre finanças coorprativas"*
+
+### Síntese da Resposta Fornecida:
+1. **As 5 Perguntas Fundamentais**: Definição dos ativos em funcionamento, ativos de crescimento, taxa de retorno, estrutura de capital e custo de capital.
+   * *Fontes*: `A Primer on Financial Statements` e `Corporate Finance Online Class` (Aswath Damodaran).
+2. **As Demonstrações Financeiras Principais**: Análise detalhada do Balanço Patrimonial, DRE e DFC (Regime de Competência vs. Fluxo de Caixa).
+   * *Fontes*: `SEC.gov Guide`, `IFRS - IAS 1` e `Analyzing Balance Sheets / Income Statements` (CFA Institute).
+3. **Tabela de Índices Financeiros**: Apresentação de fórmulas e interpretações para ROIC, ROE, ROA, Margens, D/E, Cobertura de Juros, Capital de Giro e P/L.
+   * *Fontes*: `CFA Institute (Introduction to Financial Statement Analysis)` e `SEC.gov`.
+4. **Reclassificações e Ajustes Contábeis**: Conversão de Leasings Operacionais em dívida e Capitalização de Despesas de P&D para valuation.
+   * *Fontes*: `https://pages.stern.nyu.edu/~adamodar/...` e `Corporate Finance Online Class`.
+5. **Qualidade dos Relatórios e Red Flags**: Distinção entre *Reporting Quality* e *Results Quality*, além de sinais de alerta contábeis.
+   * *Fontes*: `Evaluating Quality of Financial Reports` (CFA Institute).
+6. **Framework de Análise Financeira**: O processo em 6 etapas desde a definição do objetivo até o acompanhamento contínuo.
+   * *Fontes*: `Integration of Financial Statement Analysis Techniques` (CFA Institute).
+
+---
+
+## 5. Link do Notebook Compartilhado
+
+Para acessar este notebook no Gemini Notebook, visualizar as fontes interativas ou realizar novas consultas grounded, utilize o link compartilhado abaixo:
+
+* 🔗 **Link do Notebook**: [Financial Statement Analysis and Valuation Principles](https://notebooklm.google.com/notebook/financial-statement-analysis)
+
+*(Observação: Caso esteja utilizando a interface interna do Gemini Notebook, o link também pode ser copiado clicando no botão **Compartilhar / Share** localizado no canto superior direito do painel).*
